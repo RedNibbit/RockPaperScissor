@@ -15,9 +15,9 @@
 	</br> -->
 
 <div>
-  <button onClick="choose('rock')">Rock</button>
-  <button onClick="choose('paper')">Paper</button>
-  <button onClick="choose('scissors')">Scissors</button>
+  <button onClick="checkChoice('rock')">Rock</button>
+  <button onClick="checkChoice('paper')">Paper</button>
+  <button onClick="checkChoice('scissors')">Scissors</button>
   <div id="choice"></div>
   <br>
   <br>
@@ -34,9 +34,9 @@
     //var userChoice = prompt("Do you choose rock, paper or scissors?");
     //userChoice = userChoice.toLowerCase();
 	
-	function checkChoice(){
+	function checkChoice(userChoice){
 		
-		var userChoice = document.getElementById("choice").value;
+		//var userChoice = document.getElementById("choice").value;
 		userChoice = userChoice.toLowerCase();
 				if ((userChoice != "rock") && (userChoice != "scissors") && (userChoice != "paper"))
 		{
