@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="icon" href="http://cdn.freefavicon.com/freefavicons/objects/raised-fist-152-211409.png" type="image/x-icon">
+<link rel="icon" href="https://cdn.freefavicon.com/freefavicons/objects/raised-fist-152-211409.png" type="image/x-icon">
 </head>
 <body>
 
@@ -19,10 +19,9 @@
 	</br> -->
 
 <div>
-
-  <button type="button" title="Find Tickets" class="button btn-cart" onClick="checkChoice('rock')">Rock</button>
-  <button type="button" title="Find Tickets" class="button btn-cart" onClick="checkChoice('paper')">Paper</button>
-  <button type="button" title="Find Tickets" class="button btn-cart" onClick="checkChoice('scissors')">Scissors</button>
+  <button type="button" title="Find Tickets" class="button btn-cart" onClick="userChoice('rock')">Rock</button>
+  <button type="button" title="Find Tickets" class="button btn-cart" onClick="userChoice('paper')">Paper</button>
+  <button type="button" title="Find Tickets" class="button btn-cart" onClick="userChoice('scissors')">Scissors</button>
   <div id="choice"></div>
 <br>
 <br>
@@ -35,20 +34,22 @@
 	
 </form>
 
-<div id="message"></div>
+<!-- <div id="message"></div> -->
 <div id="image"></div>
 
 
 <script>
-    var userChoice = prompt("Do you choose rock, paper or scissors?");
+   // var userChoice = prompt("Do you choose rock, paper or scissors?");
     userChoice = userChoice.toLowerCase();
 	
-	function checkChoice(userChoice){
+/*	function checkChoice(userChoice){
 		
 		var userChoice = document.getElementById("choice").value;
 		userChoice = userChoice.toLowerCase();
-				if ((userChoice != "rock") && (userChoice != "scissors") && (userChoice != "paper"))
-		{
+				if ((userChoice != "rock") && (userChoice != "scissors") && (userChoice != "paper")) 
+				*/
+				
+/*		{
 				document.getElementById("message").innerHTML = "Dude, you can only chose one of those three options";
 				var elem = document.createElement("img");
 					elem.setAttribute("height", "342");
@@ -58,6 +59,8 @@
 					document.getElementById("image").innerHTML = "";
 					document.getElementById("image").appendChild(elem);
 					return false;
+					) 
+					*/
 
 		}else {
 			var backstageChoice = Math.random();
