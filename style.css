@@ -97,3 +97,8 @@ div.img {
    width: auto;
    max-height: 100%;
 }
+div.img-result {
+    padding: 15px;
+    width: 100%;
+    max-height: auto;
+}
