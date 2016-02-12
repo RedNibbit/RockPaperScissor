@@ -50,6 +50,7 @@
 				*/
 				
 /*		{
+		var userChoice = document.getElementById("choice").value;
 				document.getElementById("message").innerHTML = "Dude, you can only chose one of those three options";
 				var elem = document.createElement("img");
 					elem.setAttribute("height", "342");
@@ -62,7 +63,9 @@
 					) 
 					*/
 
-		}else {
+		// }else 
+		var userChoice = document.getElementById("choice").value;
+		{
 			var backstageChoice = Math.random();
 			   if (backstageChoice < 0.34) {
 				backstageChoice = "rock";
