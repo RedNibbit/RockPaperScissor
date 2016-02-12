@@ -10,13 +10,14 @@ div {
 
 nav {
     float: left;
-    width: 200px;
+    width: 25%;
     border: 0px solid #73AD21;
 }
 
 section {
-    margin-left: 206px;
+    margin-left: absolute;
     border: 0px solid red;
+    width: 50%;
 }
 
 
@@ -76,4 +77,14 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
     position: relative;
     vertical-align: middle;
     width:100%;
+}
+
+/*default floating boxes*/
+
+.floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;  
 }
