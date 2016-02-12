@@ -1,3 +1,26 @@
+/*page Layout*/
+
+page {
+    border: 0px solid blue;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+main elements {
+    float: center;
+    width: 1024px;
+    border: 0px solid #73AD21;
+}
+
+nav {
+    margin-left: 300px;
+    border: 0px solid red;
+}
+</style>
+
+
 /*headings */
 
 
