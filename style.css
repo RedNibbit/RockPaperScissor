@@ -101,15 +101,18 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
     border: 0px solid #73AD21;  
     position: relative;
     vertical-align: middle;
+    
 }
 
 /*default images*/
 div.img {
    width: auto;
    max-height: 100%;
+   text-align: center;
 }
 div.img-result {
     padding: 15px;
     width: 100%;
     max-height: auto;
+    text-align: center;
 }
