@@ -13,7 +13,7 @@ nav {
     float: left;
     width: 25%;
     min-width: 230px;
-    height: 1600px;
+    height: 1080px;
   /*  border: 2px solid #73AD21; */ /* enable to review grids*/ 
 }
 
@@ -102,7 +102,7 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
     width: 150px;
     height: 75px;
     margin: 10px;
-    /* enable to review grids*/border: 3px solid #73AD21;  /* enable to review grids*/
+    /* enable to review grids*/border: 1px solid #73AD21;  /* enable to review grids*/
 
     
 }
@@ -114,7 +114,7 @@ div.img {
    text-align: center;
 }
 div.img-result {
-    padding: 15px;
+    padding: 0px;
     width: 100%;
     max-height: auto;
     text-align: center;
