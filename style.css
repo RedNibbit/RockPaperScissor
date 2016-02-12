@@ -101,10 +101,9 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
     display: inline-block;
     width: 150px;
     height: 75px;
-    margin: auto;
-    border: 0px solid #73AD21;  
-    position: relative;
-    vertical-align: middle;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+
     
 }
 
