@@ -28,7 +28,7 @@ section {
 /*headings */
 
 h1,h2,h3,
-h4,h5,h6      { margin:0 0 5px; color: #33cc33;  font-weight: 300;  line-height: 130%; opacity:80%; }
+h4,h5,h6      { margin:0 0 5px; color: #002b80;  font-weight: 300;  line-height: 130%; opacity:80%; text-shadow:5px 5px 10px #002266; }
 h1            { font-size:20px; font-weight:normal; text-align: center; }
 h2            { font-size:18px; font-weight:normal; text-align: center; }
 h3            { font-size:16px; font-weight:bold; text-align: center; }
