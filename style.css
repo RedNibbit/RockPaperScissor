@@ -18,6 +18,7 @@ nav {
 
 section {
     margin-left: 25%;
+    min-width: 650px;
     border: 0px;
     width: 50%;
     clear: right;
