@@ -67,6 +67,7 @@ button.button {
     height: 100%;
     padding: 0 15px;
     border: none;
+    margin: auto;
 }
 
 button:hover,
@@ -84,12 +85,13 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
 
 /* button grouping */
 
-.btn-group-vertical {
+/* .btn-group-vertical {
     display: inline-block;
     position: relative;
     vertical-align: middle;
     width:100%;
-}
+} 
+*/
 
 /*default floating boxes*/
 
@@ -97,7 +99,7 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
     display: inline-block;
     width: 150px;
     height: 75px;
-    margin: 10px;
+    margin: auto;
     border: 0px solid #73AD21;  
     position: relative;
     vertical-align: middle;
