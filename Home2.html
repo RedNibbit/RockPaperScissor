@@ -12,10 +12,10 @@
 <nav>
   <span><h1>Basic navigation menu</h1></span>
     <ul>
-      <li><a target="_blank" href="tbd">tbd</a></li>
-      <li><a target="_blank" href="tbd">tbd</a></li>
-      <li><a target="_blank" href="tbd">tbd</a></li>
-      <li><a target="_blank" href="tbd">tbd</a></li>
+      <li><a target="_self" href="tbd">tbd</a></li>
+      <li><a target="_self" href="tbd">tbd</a></li>
+      <li><a target="_self" href="tbd">tbd</a></li>
+      <li><a target="_self" href="tbd">tbd</a></li>
     </ul>
 </nav>
 <section>
@@ -68,7 +68,7 @@
 		
 		//var userChoice = document.getElementById("choice").value;
 		userChoice = userChoice.toLowerCase();
-				if ((userChoice != "rock") && (userChoice != "scissors") && (userChoice != "paper"))
+				/*if ((userChoice != "rock") && (userChoice != "scissors") && (userChoice != "paper"))
 		{
 				document.getElementById("message").innerHTML = "Dude, you can only chose one of those three options";
 				var elem = document.createElement("img");
@@ -79,7 +79,8 @@
 					document.getElementById("image").innerHTML = "";
 					document.getElementById("image").appendChild(elem);
 					return false;
-		}else {
+		}else */
+			{
 			var backstageChoice = Math.random();
 			   if (backstageChoice < 0.34) {
 				backstageChoice = "rock";
