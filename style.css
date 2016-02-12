@@ -93,7 +93,7 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
 }
 
 /*default images*/
-imgstandard {
+div.img {
    width: auto;
    max-height: 100%;
 }
