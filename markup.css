@@ -1,0 +1,15 @@
+button.button::-moz-focus-inner { padding:0; border:0; } /* FF Fix */
+button.button { -webkit-border-fit:lines; } /* <- Safari & Google Chrome Fix */
+button.button {
+    background-color: #419ed9;
+    background-image: linear-gradient(to bottom, #419ed9 0%, #2f7cb4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF419ED9',endColorstr='#FF2F7CB4');
+    background-size: 100% auto;
+    /*clear: both;*/
+    color: #fff;
+    display: block;
+    font: 300 14px/28px "FrutigerLTW01-45Light",sans-serif;
+    height: 32px;
+    padding: 0 15px;
+    border: none;
+}
