@@ -45,9 +45,9 @@
 	
 	function checkChoice(userChoice){
 		
-		// var userChoice = document.getElementById("choice").value;
-		// userChoice = userChoice.toLowerCase();
-				// if ((userChoice != "rock") && (userChoice != "scissors") && (userChoice != "paper"))
+		var userChoice = document.getElementById("choice").value;
+		userChoice = userChoice.toLowerCase();
+				if ((userChoice != "rock") && (userChoice != "scissors") && (userChoice != "paper"))
 		{
 				document.getElementById("message").innerHTML = "Dude, you can only chose one of those three options";
 				var elem = document.createElement("img");
