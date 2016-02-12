@@ -16,8 +16,8 @@ nav {
 }
 
 section {
-    margin-left: absolute;
-    border: 0px solid red;
+    margin-left: 25%;
+    border: 0px;
     width: 50%;
     clear: right;
     height: 100%;
