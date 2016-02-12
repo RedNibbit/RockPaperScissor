@@ -91,3 +91,9 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
     margin: 10px;
     border: 3px solid #73AD21;  
 }
+
+/*default images*/
+imgstandard {
+   width: auto;
+   max-height: 100%;
+}
