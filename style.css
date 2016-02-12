@@ -40,7 +40,7 @@ h6            { font-size:11px; font-weight:bold; text-align: center;}
 
 /*body*/
 body {
-    background: url("http://wallpapercave.com/wp/aNpGDLY.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("http://wallpapercave.com/wp/aNpGDLY.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     color: #222;
     font: 13px/1.231 Verdana,Geneva,sans-serif;
     font-size: 13px;
@@ -102,7 +102,7 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
     width: 150px;
     height: 75px;
     margin: 10px;
-    border: 3px solid #73AD21;  
+    /* enable to review grids*/border: 3px solid #73AD21;  /* enable to review grids*/
 
     
 }
