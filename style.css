@@ -13,14 +13,14 @@ nav {
     width: 25%;
     min-width: 230px;
     height: 1600px;
-    border: 0px solid #73AD21;
+    border: 2px solid #73AD21;
 }
 
 section {
     float: right;
     margin-left: 25%;
     min-width: 650px;
-    border: 0px;
+    border: 2px;
     width: 50%;
     clear: right;
     height: 100%;
