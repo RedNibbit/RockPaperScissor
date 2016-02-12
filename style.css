@@ -17,6 +17,7 @@ nav {
 }
 
 section {
+    float: right;
     margin-left: 25%;
     min-width: 650px;
     border: 0px;
