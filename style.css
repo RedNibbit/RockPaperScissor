@@ -91,7 +91,7 @@ button.btn-checkout.no-checkout span { background-position:0 100%; color:#b8baba
 button.btn-checkout.no-checkout span span { background-position:100% 100%; }
 
 /* li with buttons*/
-#buttonslist a{
+buttonslist a{
     float: left;
     list-style: none;
     text-align: center;
@@ -101,7 +101,7 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
     line-height: 60px;
     
 }
-#buttonslist a{
+buttonslist a{
     border:0px solid #5d6981;-webkit-box-shadow: #6D0019 5px 5px 12px ;-moz-box-shadow: #6D0019 5px 5px 5px ; box-shadow: #6D0019 5px 5px 12px ; -webkit-border-radius: 5px; -moz-border-radius: 5px;border-radius: 5px;font-size:12px;font-family:helvetica, sans-serif; padding: 0 15px; text-decoration:none; display:inline-block;text-shadow: 2px 2px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
  background-color: #78859E; background-image: -webkit-gradient(linear, left top, left bottom, from(#78859E), to(#6D0019));
  background-image: -webkit-linear-gradient(top, #78859E, #6D0019);
@@ -112,7 +112,7 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
  margin-bottom:15px;
 }
  
-#buttonslist a:hover {
+buttonslist a:hover {
    border:0px solid #5d6981;-webkit-box-shadow: #6D0019 5px 5px 12px ;-moz-box-shadow: #6D0019 5px 5px 12px ; box-shadow: #6D0019 5px 5px 12px ; -webkit-border-radius: 5px; -moz-border-radius: 5px;border-radius: 5px;font-size:12px;font-family:helvetica, sans-serif; padding: 0 15px; text-decoration:none; display:inline-block;text-shadow: 2px 2px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
  background-color: #5f6c84; background-image: -webkit-gradient(linear, left top, left bottom, from(#5f6c84), to(#3a000d));
  background-image: -webkit-linear-gradient(top, #5f6c84, #3a000d);
