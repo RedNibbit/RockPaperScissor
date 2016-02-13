@@ -118,10 +118,11 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
  
 #buttonsl li a:hover {
     text-decoration: none;
-    background-color: #2f7cb4;
+    background-color: none;
     background-image: linear-gradient(to bottom, #2f7cb4 0%, #419ed9 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF2f7cb4',endColorstr='#FF419ed9');
     background-size: 100% auto;
+    margin-bottom: 10px;
 }
 
 /* button grouping */
