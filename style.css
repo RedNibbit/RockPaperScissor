@@ -114,6 +114,7 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
     padding: 0 15px;
     border: none;
     margin: auto;
+    margin-bottom:15px;
 }
  
 #buttonsl li a:hover {
