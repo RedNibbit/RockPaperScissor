@@ -13,7 +13,7 @@ nav {
     float: left;
     width: 25%;
     min-width: 230px;
-    height: 1080px;
+    height: auto;
   /*  border: 2px solid #73AD21; */ /* enable to review grids*/ 
 }
 
