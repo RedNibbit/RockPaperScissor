@@ -134,7 +134,7 @@ div.img-result {
     margin-right: auto;
 
      text-align: justify;
-    -ms-text-justify: distribute-all-lines;
+/*    -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
 }
 #thumbs a {
