@@ -29,13 +29,17 @@ section {
 /*headings */
 
 h1,h2,h3,
-h4,h5,h6      { margin:0 0 5px; color: #002b80;  font-weight: 300;  line-height: 130%; opacity:80%; text-shadow:5px 5px 10px #002266; }
+h4,h5,h6,
+h1.nav        { margin:0 0 5px; color: #002b80;  font-weight: 300;  line-height: 130%; opacity:80%; text-shadow:5px 5px 10px #002266; }
 h1            { font-size:20px; font-weight:normal; text-align: center; }
 h2            { font-size:18px; font-weight:normal; text-align: center; }
 h3            { font-size:16px; font-weight:bold; text-align: center; }
 h4            { font-size:14px; font-weight:bold; text-align: center; }
 h5            { font-size:12px; font-weight:bold; text-align: center; }
 h6            { font-size:11px; font-weight:bold; text-align: center;}
+h1.nav { font-size:20px; font-weight:normal; text-align: left ; }
+
+}
 /*text*/
 
 /*body*/
@@ -102,6 +106,7 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
     width: 150px;
     height: 75px;
     margin: 10px;
+    align: center;
     /* enable to review grids*/border: 1px solid #73AD21;  /* enable to review grids*/
 
     
@@ -119,3 +124,29 @@ div.img-result {
     max-height: auto;
     text-align: center;
 }
+
+/* choices div */
+
+#thumbs {   
+    width: 540px;
+    margin-top:90px;
+    margin-left: auto; 
+    margin-right: auto;
+
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+#thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
