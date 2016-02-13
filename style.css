@@ -127,7 +127,7 @@ div.img-result {
 
 /* choices div */
 
-#thumbs {   
+thumbs {   
     width: auto;
     margin-top:auto;
     margin-left: auto; 
@@ -137,7 +137,7 @@ div.img-result {
 /*    -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
 }
-#thumbs a {
+thumbs a {
     vertical-align: top;
     display: inline-block;
     /* display: inline; */
