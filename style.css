@@ -61,8 +61,8 @@ body {
 button.button::-moz-focus-inner { padding:0; border:0; } /* FF Fix */
 button.button { -webkit-border-fit:lines; } /* <- Safari & Google Chrome Fix */
 button.button {
-    background-color: #8000ff;
-    background-image: linear-gradient(to bottom, #8000ff 0%, ##6600cc 100%);
+    background-color: #419ed9;
+    background-image: linear-gradient(to bottom, #419ed9 0%, #2f7cb4 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF419ED9',endColorstr='#FF2F7CB4');
     background-size: 100% auto;
     /*clear: both;*/
@@ -79,9 +79,9 @@ button.button {
 button:hover,
 .products-grid li.item:hover button.button,
 .add-to-cart button.button:hover{
-    background-color: ##6600cc;
-    background-image: linear-gradient(to bottom, ##6600cc 0%, #8000ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF#6600cc',endColorstr='#FF8000ff');
+    background-color: #2f7cb4;
+    background-image: linear-gradient(to bottom, #2f7cb4 0%, #419ed9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF2f7cb4',endColorstr='#FF419ed9');
     background-size: 100% auto;
 }
 button.button span span { border:0; padding:0; }
@@ -101,8 +101,8 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
 }
 #buttonsl li a{
     text-decoration: none;
-    background-color: #8000ff;
-    background-image: linear-gradient(to bottom, #8000ff 0%, ##6600cc 100%);
+    background-color: #419ed9;
+    background-image: linear-gradient(to bottom, #419ed9 0%, #2f7cb4 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF419ED9',endColorstr='#FF2F7CB4');
     background-size: 100% auto;
     /*clear: both;*/
@@ -119,9 +119,9 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
  
 #buttonsl li a:hover {
     text-decoration: none;
-    background-color: ##6600cc;
-    background-image: linear-gradient(to bottom, ##6600cc 0%, #8000ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF#6600cc',endColorstr='#FF8000ff');
+    background-color: #2f7cb4;
+    background-image: linear-gradient(to bottom, #2f7cb4 0%, #419ed9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF2f7cb4',endColorstr='#FF419ed9');
     background-size: 100% auto;
 }
 
