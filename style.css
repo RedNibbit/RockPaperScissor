@@ -140,7 +140,7 @@ div.img-result {
 #thumbs a {
     vertical-align: top;
     display: inline-block;
-    *display: inline;
+    /* display: inline; */
     /* zoom: 1; */
 }
 .stretch {
