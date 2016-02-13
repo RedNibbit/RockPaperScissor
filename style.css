@@ -106,7 +106,7 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
     width: 150px;
     height: 75px;
     margin: 10px;
-    align: center;
+    /* align: center; /* 
     /* enable to review grids*/border: 1px solid #73AD21;  /* enable to review grids*/
 
     
@@ -128,8 +128,8 @@ div.img-result {
 /* choices div */
 
 #thumbs {   
-    width: 540px;
-    margin-top:90px;
+    width: auto;
+    margin-top:auto;
     margin-left: auto; 
     margin-right: auto;
 
