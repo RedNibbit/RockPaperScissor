@@ -123,6 +123,7 @@ div.img-result {
     width: 100%;
     max-height: auto;
     text-align: center;
+    opacity: 0.8;
 }
 
 /* choices div */
