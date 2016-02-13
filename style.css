@@ -90,16 +90,15 @@ button.btn-checkout.no-checkout span { background-position:0 100%; color:#b8baba
 button.btn-checkout.no-checkout span span { background-position:100% 100%; }
 
 /* li with buttons*/
-#buttonsl li {
+buttonsl li {
     float: left;
     list-style: none;
     text-align: center;
     margin-right: 15px;
     width: 150px;
     line-height: 60px;
-    
 }
-#buttonsl li a{
+buttonsl li a{
     text-decoration: none;
     background-color: #419ed9;
     background-image: linear-gradient(to bottom, #419ed9 0%, #2f7cb4 100%);
@@ -114,16 +113,19 @@ button.btn-checkout.no-checkout span span { background-position:100% 100%; }
     padding: 0 15px;
     border: none;
     margin: auto;
+    buttonsl li.
 }
  
-#buttonsl li a:hover {
+buttonsl li a:hover {
     text-decoration: none;
     background-color: none;
     background-image: linear-gradient(to bottom, #2f7cb4 0%, #419ed9 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF2f7cb4',endColorstr='#FF419ed9');
     background-size: 100% auto;
     margin-bottom: 10px;
+    
 }
+
 
 /* button grouping */
 
