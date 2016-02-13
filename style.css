@@ -141,7 +141,7 @@ div.img-result {
     vertical-align: top;
     display: inline-block;
     *display: inline;
-    zoom: 1;
+    /* zoom: 1; */
 }
 .stretch {
     width: 100%;
